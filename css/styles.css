@@ -9,10 +9,6 @@ body {
   color: gray;
 }
 
-.navbar-custom {
-  background-color: #2a2a2a;
-}
-
 .carousel-item {
   height: 65vh;
   min-height: 300px;
@@ -29,4 +25,32 @@ body {
 
 .portfolio-item {
   margin-bottom: 30px;
+}
+
+.navbar-brand{
+  background-color:transparent;
+  border-color:transparent;
+  width: 7em;
+}
+
+#search {
+  margin-right:15%;
+  margin-left:15%;
+}
+
+.form-control {
+  background-color: #2a2a2a;
+  border-color:#2a2a2a;
+}
+
+.card-text, .card-body{
+  color: gray;
+}
+
+.card-title, .card-header, a{
+  color: white;
+}
+
+footer, .btn, .navbar-custom, .card, .breadcrumb{
+  background-color: #2a2a2a;
 }
