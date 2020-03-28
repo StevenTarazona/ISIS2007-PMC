@@ -19,10 +19,6 @@ body {
   background-size: cover;
 }
 
-#carouselExampleIndicators{
-  width: 70vw;
-}
-
 .portfolio-item {
   margin-bottom: 30px;
 }
@@ -47,14 +43,15 @@ body {
   color: gray;
 }
 
-.card-title, .card-header, a{
+.card-title, .card-header, a, .page-link{
   color: white;
 }
 
-footer, .btn, .navbar-custom, .card, .breadcrumb{
+footer, .btn, .navbar-custom, .card, .breadcrumb, #not_found{
   background-color: #2a2a2a;
 }
 
-#not_found {
+.pagination > li > a{
   background-color: #2a2a2a;
+  border-color: #121212;
 }
