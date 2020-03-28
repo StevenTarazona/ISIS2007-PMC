@@ -54,3 +54,7 @@ body {
 footer, .btn, .navbar-custom, .card, .breadcrumb{
   background-color: #2a2a2a;
 }
+
+#not_found {
+  background-color: #2a2a2a;
+}
