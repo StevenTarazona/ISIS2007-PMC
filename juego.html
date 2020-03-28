@@ -135,9 +135,54 @@
     
     <h3 class="my-4">Ofertas de usuarios</h3>
 
-    <div>Soy una tablita de ofertas :D</div>
-    <button>Y yo un boton para salicitar ofertas :D</button>
-    <p>↑ al oprimir esta cosa habra algun feedback que indique la relizacion de la solicitud.</p>
+    <table class="table table-dark">
+      <thead>
+        <tr>
+          <th scope="col">العارض</th>
+          <th scope="col"><i class="tunisia flag"></i> Tunisia</th>
+          <th scope="col">12,000 COP <span class="badge badge-pill badge-success">-50%</span></th>
+          <th scope="col"><span class="badge badge-pill badge-warning">Mejor oferta</span></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>ElReMatiador</td>
+          <td><i class="argentina flag"></i> Argentina</td>
+          <td>15,600 COP <span class="badge badge-pill badge-success">-35%</span></td>
+          <th scope="row"></th>
+        </tr>
+      </tbody>
+    </table>
+
+    <h4 class="my-4">Solicita una oferta</h4>
+    
+    <form name="sentMessage" id="ofertaForm" novalidate>
+      <div class="control-group form-group">
+        <div class="controls">
+          <label>Precio deseado:</label>
+          <textarea rows="1" cols="20" class="form-control" id="message" required data-validation-required-message="" maxlength="999"></textarea>
+          <p class="help-block"></p>
+        </div>
+      </div>
+      <div id="success"></div>
+      <!-- For success/fail messages -->
+      <button type="submit" class="btn btn-secondary" id="solicitarOfertaButton">Solicitar</button>
+    </form>
+
+    <h4 class="my-4">Crear una oferta</h4>
+    
+    <form name="sentMessage" id="ofertaForm" novalidate>
+      <div class="control-group form-group">
+        <div class="controls">
+          <label>Precio de venta:</label>
+          <textarea rows="1" cols="20" class="form-control" id="message" required data-validation-required-message="" maxlength="999"></textarea>
+          <p class="help-block"></p>
+        </div>
+      </div>
+      <div id="success"></div>
+      <!-- For success/fail messages -->
+      <button type="submit" class="btn btn-secondary" id="crearOfertaButton">Crear</button>
+    </form>
 
     <!-- Related Games Row -->
     <h3 class="my-4">Related Games</h3>
@@ -188,6 +233,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js" crossorigin="anonymous"></script>
   <script src="assets/demo/chart-area-demo.js"></script>
   <script src="assets/demo/chart-bar-demo.js"></script>
+  <link href="css/flag.min.css" rel="stylesheet">
 
 </body>
 
