@@ -3,51 +3,135 @@
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
  */
+
 body {
-  padding-top: 56px;
-  background: #121212;
-  color: gray;
+    padding-top: 56px;
+    background: #121212;
+    color: gray;
 }
 
 .carousel-item {
-  height: 65vh;
-  min-height: 300px;
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    height: 65vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-.navbar-brand{
-  background-color:transparent;
-  border-color:transparent;
-  width: 7em;
+.navbar-brand {
+    background-color: transparent;
+    border-color: transparent;
+    width: 7em;
 }
 
 #search {
-  margin-right:15%;
-  margin-left:15%;
+    margin-right: 15%;
+    margin-left: 15%;
 }
 
 .form-control {
-  background-color: #2a2a2a;
-  border-color:#2a2a2a;
+    background-color: #2a2a2a;
+    border-color: #2a2a2a;
 }
 
-.card-text, .card-body{
-  color: gray;
+.card-text,
+.card-body {
+    color: gray;
 }
 
-.card-title, .card-header, a, .page-link{
-  color: white;
+.card-title,
+.card-header,
+a,
+.page-link {
+    color: white;
 }
 
-footer, .btn, .navbar-custom, .card, .breadcrumb, #not_found, .table{
-  background-color: #2a2a2a;
+footer,
+.btn,
+.navbar-custom,
+.card,
+.breadcrumb,
+#not_found,
+.table {
+    background-color: #2a2a2a;
 }
 
-.pagination > li > a{
-  background-color: #2a2a2a;
-  border-color: #121212;
+.pagination>li>a {
+    background-color: #2a2a2a;
+    border-color: #121212;
+}
+
+
+/*Login*/
+
+.user_card {
+    height: 400px;
+    width: 350px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background: #2a2a2a;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+}
+
+.brand_logo_container {
+    position: absolute;
+    height: 170px;
+    width: 170px;
+    top: -75px;
+    border-radius: 50%;
+    background: gray;
+    padding: 10px;
+    text-align: center;
+}
+
+.brand_logo {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.form_container {
+    margin-top: 100px;
+}
+
+.login_btn {
+    width: 100%;
+    background: red !important;
+    color: white !important;
+}
+
+.login_btn:focus {
+    box-shadow: none !important;
+    outline: 0px !important;
+}
+
+.login_container {
+    padding: 0 2rem;
+}
+
+.input-group-text {
+    background: red !important;
+    color: white !important;
+    border: 0 !important;
+    border-radius: 0.25rem 0 0 0.25rem !important;
+}
+
+.input_user,
+.input_pass:focus {
+    box-shadow: none !important;
+    outline: 0px !important;
+}
+
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+    background-color: red !important;
 }
