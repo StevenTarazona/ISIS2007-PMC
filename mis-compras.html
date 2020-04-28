@@ -81,7 +81,8 @@
     </nav>
   </header>
 
-<div class="container">
+  <!-- Page Content -->
+  <div class="container">
 
     <!-- Page Heading/Breadcrumbs -->
     <h1 class="mt-4 mb-3">Mis Compras</h1>
@@ -93,123 +94,102 @@
       <li class="breadcrumb-item active">Mis Compras</li>
     </ol>
 
-    <div class="row">
-      <div class="col-lg-12 col-sm-6 portfolio-item">
-        <div class="card mb-3">
-          <div class="row no-gutters">
-            <div class="col-md-2 my-auto p-3">
-              <img class="card-img-top" src="https://images.launchbox-app.com/f6dbeee5-ae2d-4599-99e9-60c6da17e223.png" alt="">
-            </div>
-            <div class="col-md-5">
-              <div class="card-body">
-                <a href="compra.html">
-                  <a href="the_witcher_3.html">
-                    <h5 class="card-title">The Witcher 3</h5>
-                  </a>
-                  <p class="card-text">Geralt vuelve para su tercera aventura.</p>
-              </div>
-            </div>
-            <div class="col-md-5">
-              <div class="card-body">
-                <h5 class="card-title">Estado de la transacción: <span
-                    class="badge badge-pill badge-warning">En Progreso</span></h5>
-                <p class="card-text"><div class="progress">
-                  <div class="progress-bar progress-bar-success" role="progressbar" style="width:33.3%">
-                    Paso 1 de 3
-                  </div>
-                  <div class="progress-bar progress-bar-success-2" role="progressbar" style="width:33.3%">
-                    Paso 2 de 3
-                  </div>
-                  <div class="progress-bar progress-bar-success-3" role="progressbar" style="width:33.4%">
-                    Paso Final
-                  </div>
-                </div>
-                <br><button type="submit" class="btn btn-secondary" id="sendMessageButton">Confirmar entrega del juego</button>
+    <div class="container card mb-3 py-3">
+      <div class="row">
+        <div class="col-md-2 my-auto p-3">
+          <img class="card-img-top" src="https://images.launchbox-app.com/f6dbeee5-ae2d-4599-99e9-60c6da17e223.png"
+            alt="">
+        </div>
+        <div class="col-md">
+          <a href="the_witcher_3.html">
+            <h5 class="card-title">The Witcher 3</h5>
+          </a>
+          <p class="card-text">Geralt vuelve para su tercera aventura.</p>
+        </div>
+        <div class="col-md">
+          <h5 class="card-title">Estado de la transacción: <span class="badge badge-pill badge-warning">En
+              Progreso</span></h5>
+          <div class="progress">
+            <div class="container">
+              <div class="row">
+                <div class="progress-bar progress-bar-success col" role="progressbar">Paso 1 de 3</div>
+                <div class="progress-bar progress-bar-success-2 col" role="progressbar">Paso 2 de 3</div>
+                <div class="progress-bar progress-bar-success-3 col" role="progressbar">Paso Final</div>
               </div>
             </div>
           </div>
+          <br><button type="submit" class="btn btn-secondary" id="sendMessageButton">Confirmar entrega del
+            juego</button>
         </div>
       </div>
+    </div>
 
-      <div class="col-lg-12 col-sm-6 portfolio-item">
-        <div class="card mb-3">
-          <div class="row no-gutters">
-            <div class="col-md-2 my-auto p-3">
-              <img class="card-img-top" src="http://placehold.it/700x400" alt="">
-            </div>
-            <div class="col-md-5">
-              <div class="card-body">
-                <a href="juego.html">
-                  <h5 class="card-title">Game One</h5>
-                </a>
-                <p class="card-text">El mejor platformer del mundo.</p>
-              </div>
-            </div>
-            <div class="col-md-5">
-              <div class="card-body">
-                <a href="">
-                  <svg class="bi bi-trash-fill float-right" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" d="M2.5 1a1 1 0 00-1 1v1a1 1 0 001 1H3v9a2 2 0 002 2h6a2 2 0 002-2V4h.5a1 1 0 001-1V2a1 1 0 00-1-1H10a1 1 0 00-1-1H7a1 1 0 00-1 1H2.5zm3 4a.5.5 0 01.5.5v7a.5.5 0 01-1 0v-7a.5.5 0 01.5-.5zM8 5a.5.5 0 01.5.5v7a.5.5 0 01-1 0v-7A.5.5 0 018 5zm3 .5a.5.5 0 00-1 0v7a.5.5 0 001 0v-7z" clip-rule="evenodd"/>
-                  </svg>
-                </a>
-                <h5 class="card-title">Estado de la transacción: <span
-                  class="badge badge-pill badge-done">Finalizada</span></h5>
-              <p class="card-text"><div class="progress">
-                <div class="progress-bar progress-bar-completado" role="progressbar" aria-valuenow="100"
-                aria-valuemin="0" aria-valuemax="100" style="width:100%">
-                  Completado!
-                </div>
-              </div>
-              <p class="card-text"><br>Transacción completada</p>
-            </div>
+    <div class="container card mb-3 py-3">
+      <a href="">
+        <svg class="bi bi-trash-fill float-right" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
+          xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd"
+            d="M2.5 1a1 1 0 00-1 1v1a1 1 0 001 1H3v9a2 2 0 002 2h6a2 2 0 002-2V4h.5a1 1 0 001-1V2a1 1 0 00-1-1H10a1 1 0 00-1-1H7a1 1 0 00-1 1H2.5zm3 4a.5.5 0 01.5.5v7a.5.5 0 01-1 0v-7a.5.5 0 01.5-.5zM8 5a.5.5 0 01.5.5v7a.5.5 0 01-1 0v-7A.5.5 0 018 5zm3 .5a.5.5 0 00-1 0v7a.5.5 0 001 0v-7z"
+            clip-rule="evenodd" />
+        </svg>
+      </a>
+      <div class="row">
+        <div class="col-md-2 my-auto p-3">
+          <img class="card-img-top" src="http://placehold.it/700x400" alt="">
+        </div>
+        <div class="col-md">
+          <a href="juego.html">
+            <h5 class="card-title">Game One</h5>
+          </a>
+          <p class="card-text">El mejor shooter de la historia.</p>
+        </div>
+        <div class="col-md">
+          <h5 class="card-title">Estado de la transacción: <span class="badge badge-pill badge-warning">En
+              Finalizada</span></h5>
+          <div class="progress">
+            <div class="progress-bar progress-bar-completado" role="progressbar" aria-valuenow="100" aria-valuemin="0"
+              aria-valuemax="100" style="width:100%">Completado!</div>
           </div>
+          <p class="card-text"><br>Transacción completada</p>
         </div>
       </div>
-      </div>
-      <div class="col-lg-12 col-sm-6 portfolio-item">
-        <div class="card mb-3">
-          <div class="row no-gutters">
-            <div class="col-md-2 my-auto p-3">
-              <img class="card-img-top" src="http://placehold.it/700x400" alt="">
-            </div>
-            <div class="col-md-5">
-              <div class="card-body">
-                <a href="juego.html">
-                  <h5 class="card-title">Game Two</h5>
-                </a>
-                <p class="card-text">Mejor que ZooTycoon, crea tu propia dulcería.</p>
-              </div>
-            </div>
-            <div class="col-md-5">
-              <div class="card-body">
-                <h5 class="card-title">Estado de la transacción: <span
-                    class="badge badge-pill badge-warning">En Progreso</span></h5>
-                <p class="card-text"><div class="progress">
-                  <div class="progress-bar progress-bar-success" role="progressbar" style="width:33.3%">
-                    Paso 1 de 3
-                  </div>
-                  <div class="progress-bar progress-bar-success-2" role="progressbar" style="width:33.3%">
-                    Paso 2 de 3
-                  </div>
-                  <div class="progress-bar progress-bar-completado" role="progressbar" style="width:33.4%">
-                  </div>
-                </div>
-                <br><button type="submit" class="btn btn-secondary" id="sendMessageButton">Esperando confirmación del vendedor</button>
+    </div>
+
+    <div class="container card mb-3 py-3">
+      <div class="row">
+        <div class="col-md-2 my-auto p-3">
+          <img class="card-img-top" src="http://placehold.it/700x400" alt="">
+        </div>
+        <div class="col-md">
+          <a href="juego.html">
+            <h5 class="card-title">Game Two</h5>
+          </a>
+          <p class="card-text">El mejor platformer del mundo.</p>
+        </div>
+        <div class="col-md">
+          <h5 class="card-title">Estado de la transacción: <span class="badge badge-pill badge-warning">En
+              Progreso</span></h5>
+          <div class="progress">
+            <div class="container">
+              <div class="row">
+                <div class="progress-bar progress-bar-success col" role="progressbar">Paso 1 de 3</div>
+                <div class="progress-bar progress-bar-success-2 col" role="progressbar">Paso 2 de 3</div>
+                <div class="progress-bar progress-bar-completado col" role="progressbar"></div>
               </div>
             </div>
           </div>
+          <br><button type="submit" class="btn btn-secondary" id="sendMessageButton">Esperando confirmación del
+            vendedor</button>
         </div>
       </div>
     </div>
   </div>
-  <!-- /.container -->
 
   <!-- Footer -->
   <footer class="py-5">
     <div class="container">
       <p class="m-0 text-center text-white">Copyright &copy; GameON 2020</p>
     </div>
-    <!-- /.container -->
   </footer>
 
   <!-- Bootstrap core JavaScript -->
