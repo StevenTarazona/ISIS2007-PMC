@@ -85,46 +85,107 @@
   <div class="container">
 
     <!-- Page Heading/Breadcrumbs -->
-    <h1 class="mt-4 mb-3">Game One
-      <small>Developer</small>
-    </h1>
+    <h1 class="mt-4 mb-3">The Witcher 3: Wild Hunt</h1>
 
     <ol class="breadcrumb">
       <li class="breadcrumb-item">
         <a href="index.html">Home</a>
       </li>
-      <li class="breadcrumb-item active">Game One</li>
+      <li class="breadcrumb-item active">The Witcher 3: Wild Hunt</li>
     </ol>
 
     <!-- Portfolio Item Row -->
     <div class="row">
 
       <div class="col-md-8">
-        <img class="img-fluid" src="http://placehold.it/750x500" alt="">
+        <!-- Carousel -->
+        <div id="carousel-example" class="carousel slide my-4">
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example" data-slide-to="1"></li>
+            <li data-target="#carousel-example" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/XHrskkHf958"
+                  allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="carousel-item"
+              style="background-image: url('https://images.launchbox-app.com/813b1b91-7f81-4dac-b961-310e4ec80831.png')">
+              <div class="embed-responsive embed-responsive-16by9">
+              </div>
+            </div>
+            <div class="carousel-item"
+              style="background-image: url('https://images.launchbox-app.com/26dba0b5-b8aa-43c8-a647-43bada8d2ae4.jpg')">
+              <div class="embed-responsive embed-responsive-16by9">
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev my-auto" href="#carousel-example" role="button" data-slide="prev"
+            style="height: 10%;">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next my-auto" href="#carousel-example" role="button" data-slide="prev"
+            style="height: 10%;">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        <!-- End carousel -->
       </div>
 
       <div class="col-md-4">
         <h3 class="my-3">Game Description</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna
-          varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu
-          convallis placerat, felis enim.</p>
-        <h3 class="my-3">Game Details</h3>
-        <ul>
-          <li>Lorem Ipsum</li>
-          <li>Dolor Sit Amet</li>
-          <li>Consectetur</li>
-          <li>Adipiscing Elit</li>
-        </ul>
+        <p>The game will be the third in the series, which is based on the book series of the same name by Polish author
+          Andrzej Sapkowski. The Witcher 3 is set "In an open world 30 times larger" than the previous games, featuring
+          the return of protagonist Geralt. The Witcher: Wild Hunt is a story-driven, next-generation open world
+          role-playing game set in a visually stunning fantasy universe full of meaningful choices and impactful
+          consequences. In The Witcher you play as the professional monster hunter, Geralt of Rivia, tasked with finding
+          a child of prophecy in a vast open world rich with merchant cities, viking pirate islands, dangerous mountain
+          passes, and forgotten caverns to explore.
+        </p>
       </div>
 
     </div>
+    <div class="container">
+      <h3 class="my-3">Game Details</h3>
+      <div class="row">
+        <div class="col">
+          <h5>Name</h5>
+          <p>The Witcher 3: Wild Hunt</p>
+        </div>
+        <div class="col">
+          <h5>Platform</h5>
+          <p>Windows</p>
+        </div>
+        <div class="col">
+          <h5>Release Date</h5>
+          <p>May 19, 2015</p>
+        </div>
+        <div class="col">
+          <h5>Developers</h5>
+          <p>CD Projekt RED</p>
+        </div>
+        <div class="col">
+          <h5>Publishers</h5>
+          <p>CD Projekt RED</p>
+        </div>
+        <div class="col">
+          <h5>Genres</h5>
+          <p>Action, Role-Playing</p>
+        </div>
+      </div>
+    </div>
 
     <!-- /.row -->
-    <h3 class="my-4 pt-5">Predicciones 2020</h3>
+    <h3 class="my-4 pt-5">Historico y Predicciones 2020</h3>
 
     <div class="card mb-4">
       <div class="card-header"><i class="fas fa-chart-area mr-1"></i>Mejores descuentos 2020</div>
-      <div class="card-body"><canvas id="myAreaChart" width="100%" height="40"></canvas></div>
+      <div class="card-body"><canvas id="tw3Chart" width="100%" height="40"></canvas></div>
     </div>
 
     <!--
@@ -247,6 +308,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js" crossorigin="anonymous"></script>
   <script src="assets/demo/chart-area-demo.js"></script>
   <script src="assets/demo/chart-bar-demo.js"></script>
+  <script src="assets/demo/chart-tw3-demo.js"></script>
   <link href="css/flag.min.css" rel="stylesheet">
 
 </body>
