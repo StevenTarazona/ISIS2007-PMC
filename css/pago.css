@@ -46,3 +46,16 @@ input[type="radio"] {
 .tab-pane>p{
     color: #2a2a2a;
 }
+
+.btn-custom{
+    background-color: transparent;
+    text-align-last: left;
+}
+
+.btn-custom>.card-title{
+    color: white;
+}
+
+.btn-custom>.card-subtitle{
+    color: gray;
+}
