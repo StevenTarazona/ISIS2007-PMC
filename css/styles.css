@@ -4,7 +4,7 @@ body {
     color: gray;
 }
 
-#carousel-game>.carousel-item{
+#carousel-game>.carousel-item {
     height: 55vh;
 }
 
@@ -31,30 +31,22 @@ body {
     margin-left: 15%;
 }
 
+/*
 .form-control {
     background-color: #2a2a2a;
     border-color: #2a2a2a;
 }
+*/
 
-.card-text,
-.card-body {
+.card-text, .card-body {
     color: gray;
 }
 
-.card-title,
-.card-header,
-a,
-.page-link {
+.card-title, .card-header, a, .page-link {
     color: white;
 }
 
-footer,
-.btn,
-.navbar-custom,
-.card,
-.breadcrumb,
-#not_found,
-.table {
+footer, .btn, .navbar-custom, .card, .breadcrumb, #not_found, .table {
     background-color: #2a2a2a;
 }
 
@@ -62,7 +54,6 @@ footer,
     background-color: #2a2a2a;
     border-color: #121212;
 }
-
 
 /*Login*/
 
@@ -127,8 +118,7 @@ footer,
     border-radius: 0.25rem 0 0 0.25rem !important;
 }
 
-.input_user,
-.input_pass:focus {
+.input_user, .input_pass:focus {
     box-shadow: none !important;
     outline: 0px !important;
 }
